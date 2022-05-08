@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -10,67 +11,73 @@ body{
     background-size: cover;
 }
 
-.logo {
-    margin-right: 171px;
-    margin-left: 171px;
-    margin-top: -220px;
-}
 
 h1 {
     font-family: arial;
     font-size: 30px;
     color: #F44C2D;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 h2 {
     font-family: tahoma;
     font-size: 24px;
     color: #003399;
-    
 }
 
 #container{
-        margin: auto;
-        margin-top: 185px;
-        margin-bottom: 100px;
-        width: 70%;
-        border: 5px solid #000;
-        padding: 30px;
-        background-color: rgb(222 222 222 / 70%);
-        border-radius: 20px;
-}
-
-@media screen and (max-width: 480px) {
-
-    #container{
-        width: 120%;
-        margin: 0;
-        margin-top: 100px;
-    }
-
-    .logo {
-        width: 250px;
-        margin-left: -35px;
-    }
-
-    .inicio {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-table{
-    border: none;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    display: inline-block;
-
+    margin-top: 185px;
+    margin-bottom: 100px;
+    width: 70%;
+    border: 5px solid #000;
+    padding: 30px;
+    background-color: rgb(222 222 222 / 70%);
+    border-radius: 20px;
 }
 
-table tr td{
-    border: none;
-    padding: 28px; 
-    vertical-align: middle;
+.logo {
+    margin: auto;
+    margin-top: -220px;
+}
+
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.texto {
+    width: 500px;
+    margin-right: 150px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.quadro {
+    margin-top: -75px;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
 }
 
 .fotos {
@@ -78,15 +85,10 @@ table tr td{
     border-radius: 50%;
 }
 
-.arvore img {
-    position: static;  
-    margin-left: 192.5px;
-    margin-right: 192.5px;
+.arvore-titulo {
+    margin-bottom: 100px;
 }
- 
 
-li a:hover {
-    background-color: yellow;
-    color: tomato;
-    border-radius: 21px;
+.arvore {
+    margin: auto;
 }
